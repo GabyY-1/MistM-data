@@ -1,0 +1,12 @@
+{
+  "model_name": "Milo",
+  "model_version": "prototype",
+  "architecture": "decoder_only_transformer",
+  "target_parameters": 4000000000,
+  "vocab_size": 32768,
+  "max_sequence_length": 2048,
+  "training_dtype": "bfloat16",
+  "attention": "causal",
+  "status": "planning_only",
+  "note": "Cette configuration n'est pas encore validée. Le nombre de paramètres réel dépendra des dimensions, des couches et de l'architecture implémentée."
+}
