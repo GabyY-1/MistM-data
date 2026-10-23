@@ -1,0 +1,10 @@
+{
+  "input": "/content/MisteM/corpora/processed/python_docs.jsonl",
+  "output": "/content/MisteM/corpora/processed/python_docs_clean.jsonl",
+  "documents_kept": 538,
+  "duplicates_removed": 0,
+  "empty_documents_removed": 0,
+  "invalid_lines_skipped": 0,
+  "total_characters": 14745342,
+  "elapsed_seconds": 0.34
+}
