@@ -1,0 +1,12 @@
+{
+  "sequence_length": 512,
+  "sequence_count": 6419,
+  "tokens_in_full_sequences": 3286528,
+  "tokens_read_before_chunking": 3418029,
+  "shape": [
+    6419,
+    512
+  ],
+  "dtype": "uint32",
+  "file": "/content/MisteM/training/prototype/train_sequences.npy"
+}
