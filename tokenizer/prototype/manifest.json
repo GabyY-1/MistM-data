@@ -1,0 +1,85 @@
+{
+  "status": "prototype",
+  "vocab_size": 32768,
+  "special_tokens": [
+    "<|pad|>",
+    "<|unk|>",
+    "<|bos|>",
+    "<|eos|>",
+    "<|system|>",
+    "<|user|>",
+    "<|assistant|>",
+    "<|tool|>"
+  ],
+  "training_corpus": "/content/MisteM/corpora/processed/python_docs_clean.jsonl",
+  "training_time_seconds": 7.27,
+  "tests": [
+    {
+      "input": "def hello(name: str) -> str:\n    return f'Hello {name}'",
+      "token_count": 18,
+      "tokens": [
+        "def",
+        "Ġhello",
+        "(",
+        "name",
+        ":",
+        "Ġstr",
+        ")",
+        "Ġ->",
+        "Ġstr",
+        ":",
+        "ĊĠĠĠ",
+        "Ġreturn",
+        "Ġf",
+        "'",
+        "Hello",
+        "Ġ{",
+        "name",
+        "}'"
+      ]
+    },
+    {
+      "input": "const result = await fetch('/api/data');",
+      "token_count": 10,
+      "tokens": [
+        "const",
+        "Ġresult",
+        "Ġ=",
+        "Ġawait",
+        "Ġfetch",
+        "('/",
+        "api",
+        "/",
+        "data",
+        "');"
+      ]
+    },
+    {
+      "input": "for (let i = 0; i < 10; i++) { console.log(i); }",
+      "token_count": 21,
+      "tokens": [
+        "for",
+        "Ġ(",
+        "let",
+        "Ġi",
+        "Ġ=",
+        "Ġ0",
+        ";",
+        "Ġi",
+        "Ġ<",
+        "Ġ10",
+        ";",
+        "Ġi",
+        "++)",
+        "Ġ{",
+        "Ġconsole",
+        ".",
+        "log",
+        "(",
+        "i",
+        ");",
+        "Ġ}"
+      ]
+    }
+  ]
+}
