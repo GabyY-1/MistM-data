@@ -1,0 +1,17 @@
+{
+  "source": "Python Documentation",
+  "source_url": "https://docs.python.org/3.14/",
+  "license_url": "https://docs.python.org/3/license.html",
+  "archive_url": "https://docs.python.org/3.14/archives/python-3.14-docs-text.tar.bz2",
+  "corpus_version": "v0.1.1",
+  "documents": 538,
+  "estimated_tokens": 3505068,
+  "tokenizer_used": "cl100k_base (provisoire)",
+  "duplicate_documents_skipped": 0,
+  "empty_files_skipped": 0,
+  "unreadable_files_skipped": 0,
+  "downloaded_bytes": 3330281,
+  "corpus_jsonl_bytes": 15530087,
+  "elapsed_seconds": 5.71,
+  "completed_at_utc": "2026-10-23T14:31:49.933639+00:00"
+}
